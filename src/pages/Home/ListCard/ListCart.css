@@ -1,0 +1,22 @@
+.dZRYSL {
+	background-color: rgb(247, 247, 247);
+	width: 100%;
+}
+.fIElzt {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+.helUbi {
+	width: 1281px;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 48px 24px;
+	margin: 0px auto;
+}
+@media (max-width: 1023px) {
+	.helUbi {
+		padding: 24px;
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+}
